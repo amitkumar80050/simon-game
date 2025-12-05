@@ -10,7 +10,6 @@ body{
     border-radius: 20%;
     border: solid black 10px;
     margin: 1.5rem;
-    cursor: pointer;
 }
 .btn-container{
     display: flex;
@@ -19,16 +18,16 @@ body{
 }
 
 .green{
-    background-color: rgb(113, 215, 113);
+    background-color: rgb(102, 186, 102);
 }
 .red{
-    background-color: rgb(223, 100, 100);
+    background-color: rgb(205, 99, 99);
 }
 .yellow{
-    background-color: rgb(230, 230, 111);
+    background-color: rgb(203, 203, 102);
 }
 .purple{
-    background-color: rgb(236, 119, 236);
+    background-color: rgb(187, 111, 187);
 }
 
 .flash{
@@ -37,31 +36,4 @@ body{
 
 .userflash{
     background-color: green;
-}
-
-/* Scoreboard */
-#scoreboard{
-    margin-top: 2rem;
-    text-align: center;
-}
-#highscores-list{
-    display: inline-block;
-    text-align: left;
-    padding-left: 1.2rem;
-    background: rgba(255,255,255,0.9);
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    min-width: 220px;
-}
-#clear-scores{
-    margin-top: 0.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Visible focus for accessibility */
-.btn:focus{
-    outline: 4px solid #ffd54f;
-    outline-offset: 4px;
 }
