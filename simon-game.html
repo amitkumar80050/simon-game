@@ -9,6 +9,7 @@
 <body>
     <h1>Simon Says Game</h1>
     <h2>press any key to start game</h2>
+    <div id="top-score-display" style="font-weight: bold; font-size: 1.2em; margin: 0.5rem 0; color: #333;">Highest Score: —</div>
     <div class="btn-container">
        <div class="line-one">
          <div id="red" class="btn red" style="button" >1</div>
@@ -21,6 +22,12 @@
         </div>
     </div>
 
+  <section id="scoreboard" style="margin-top: 2rem; text-align: center;">
+    <h3>High Scores</h3>
+    <ol id="highscores-list" style="display: inline-block; text-align: left; background: rgba(255,255,255,0.9); border-radius: 6px; padding: 0.5rem 1rem; min-width: 220px;"></ol>
+    <br>
+    <button id="clear-scores" style="margin-top: 0.5rem; padding: 0.4rem 0.8rem; cursor: pointer;">Clear Scores</button>
+  </section>
    
   <script src="simon-game.js"></script>
 </body>

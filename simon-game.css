@@ -37,3 +37,12 @@ body{
 .userflash{
     background-color: green;
 }
+
+.btn {
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 4px solid #ffd54f;
+    outline-offset: 4px;
+}
